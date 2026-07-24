@@ -1,209 +1,161 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>비주류 문화 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: #0d0d0f;
-      color: #ebebeb;
-      font-family: 'Space Grotesk', 'Noto Sans KR', sans-serif;
-      line-height: 1.6;
-      padding: 32px;
+  <meta name="bpaas-design-system" content="editorial-apple">
+  <meta name="bpaas-design-theme" content="kr-noir-burgundy">
+  <title>용강 마사지 업체 비교 — 처음 방문자를 위한 조건별 선택 안내</title>
+  <meta name="description" content="용강 마사지 업체 비교에 대한 정보와 선택 기준을 제공합니다. 용강 지역의 마사지 업체를 비교하고 조건별로 적합한 업체를 찾을 수 있습니다.">
+  <meta name="keywords" content="용강 마사지, 마사지 업체 비교, 용강 마사지 업체">
+  <link rel="canonical" href="https://yonggang-massage-note.nrb-apgujeong-guide.xyz">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "용강 마사지 업체 비교는 무엇을 의미합니까?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "용강 마사지 업체 비교는 용강 지역의 마사지 업체를 비교하고 조건별로 적합한 업체를 찾는 것을 의미합니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "용강 마사지 업체 비교를 위해 필요한 정보는 무엇입니까?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "용강 마사지 업체 비교를 위해 필요한 정보는 업체의 이름, 주소, 전화번호, 가격, 서비스 등입니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "용강 마사지 업체 비교는 어떻게 합니까?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "용강 마사지 업체 비교는 업체의 정보를 비교하고 조건별로 적합한 업체를 찾는 것을 의미합니다. 비교 기준은 업체의 가격, 서비스, 후기 등입니다."
+        }
+      }
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "로컬 가이드"
     }
-    .wrapper {
-      max-width: 1000px;
-      margin: 0 auto;
+  }
+  </script>
+  <meta property="og:title" content="용강 마사지 업체 비교 — 처음 방문자를 위한 조건별 선택 안내">
+  <meta property="og:description" content="용강 마사지 업체 비교에 대한 정보와 선택 기준을 제공합니다. 용강 지역의 마사지 업체를 비교하고 조건별로 적합한 업체를 찾을 수 있습니다.">
+  <meta property="og:url" content="https://yonggang-massage-note.nrb-apgujeong-guide.xyz">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="용강 마사지 업체 비교 — 처음 방문자를 위한 조건별 선택 안내">
+  <meta name="twitter:description" content="용강 마사지 업체 비교에 대한 정보와 선택 기준을 제공합니다. 용강 지역의 마사지 업체를 비교하고 조건별로 적합한 업체를 찾을 수 있습니다.">
+  <style>
+    body {
+      font-family: 'Noto Serif KR', serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdf5f5;
     }
     header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 60px;
+      background-color: #120808;
+      color: #fdf5f5;
+      padding: 72px;
+      text-align: center;
     }
-    .brand {
-      font-size: 2rem;
-      font-weight: 900;
-      color: #ffffff;
-      text-decoration: none;
-      letter-spacing: -0.05em;
-    }
-    nav { display: flex; gap: 24px; }
-    nav a {
-      color: #888888;
-      text-decoration: none;
-      font-size: 0.9rem;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-    nav a:hover { color: #f43f5e; }
-    main { margin-bottom: 80px; }
-    .label {
-      font-size: 0.75rem;
-      font-family: monospace;
-      color: #f43f5e;
-      font-weight: bold;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 36px;
       margin-bottom: 24px;
     }
-    h1 {
-      font-size: 3rem;
-      font-weight: 900;
-      line-height: 1.15;
-      letter-spacing: -0.04em;
-      color: #ffffff;
-      margin-bottom: 40px;
-    }
-    .article-body {
-      font-size: 1.15rem;
-      color: #cccccc;
-      font-weight: 400;
-      max-width: 780px;
-    }
-    .article-body p { margin-bottom: 24px; }
-    .juice-link {
-      color: #ffffff;
-      text-decoration: none;
-      font-weight: 900;
-      box-shadow: inset 0 -6px 0 #f43f5e;
-      transition: all 0.15s ease-in-out;
-    }
-    .juice-link:hover {
-      box-shadow: inset 0 -24px 0 #f43f5e;
-      color: #ffffff;
-    }
-    .archive-section {
-      margin-top: 80px;
-    }
-    .section-title {
-      font-size: 1rem;
-      font-family: monospace;
-      color: #888888;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-bottom: 32px;
-    }
-    .archive-list {
+    .t-side-fqtc {
+      background-image: linear-gradient(to bottom, #120808, #120808);
+      background-size: 100% 200px;
+      background-position: 0% 100%;
+      height: 100vh;
       display: flex;
-      flex-direction: column;
-      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      color: #fdf5f5;
     }
-    .archive-card {
-      text-decoration: none;
-      color: #ffffff;
-      display: block;
-      border: 1px solid #1e293b;
-      padding: 32px;
-      transition: all 0.2s ease;
+    .t-side-fqtc h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 48px;
+      margin-bottom: 24px;
     }
-    .archive-card:hover {
-      border-color: #f43f5e;
-      background-color: #0f172a;
+    .r-main-i3y4 {
+      padding: 72px;
+      background-color: #fdf5f5;
     }
-    .archive-card h3 {
-      font-size: 1.4rem;
-      font-weight: 900;
-      margin-bottom: 12px;
-      letter-spacing: -0.02em;
+    .r-main-i3y4 h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      margin-bottom: 24px;
     }
-    .archive-card p {
-      color: #888888;
-      font-size: 0.95rem;
+    .m-hero-3hgu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
     }
-    footer {
-      border-top: 1px solid #1e293b;
-      padding-top: 32px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.8rem;
-      font-family: monospace;
-      color: #475569;
+    .m-hero-3hgu li {
+      margin-bottom: 24px;
     }
-    footer a { color: #475569; text-decoration: none; }
-    footer a:hover { color: #f43f5e; }
-    @media(max-width: 768px) {
-      header { flex-direction: column; gap: 20px; align-items: flex-start; }
-      h1 { font-size: 2.2rem; }
-      .archive-card { padding: 20px; }
-      .archive-card h3 { font-size: 1.2rem; }
+    .m-hero-3hgu li::before {
+      content: counter(timeline);
+      counter-increment: timeline;
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      margin-right: 12px;
+    }
+    @media (max-width: 768px) {
+      header {
+        padding: 36px;
+      }
+      .t-side-fqtc {
+        height: 50vh;
+      }
+      .r-main-i3y4 {
+        padding: 36px;
+      }
     }
   </style>
-<meta property="og:image" content="og-image.svg">
-<link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
-  <div class="wrapper">
-    <header>
-      <a href="/" class="brand">STREET.KR</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="label">// BRUTALIST GRID SYSTEM</div>
-      <h1>비주류 문화 지식 저널 및 아카이브</h1>
-      <div class="article-body">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>비주류 문화</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="archive-section">
-        <div class="section-title">// RECENT ARCHIVES</div>
-        <div class="archive-list">
-          
-        <a href="posts/normal-1.html" class="archive-card">
-          <h3>1960년대 한국 영화 손글씨 포스터 서체(Typography)의 시각 디자인적 보존 가치</h3>
-          <p>디지털 폰트가 전무하던 격변의 1960년대 한국 극장가를 상징하는 극영화 손그림 포스터와 당시 간판 화가들의 붓끝에서 창조된 특유의 볼드한 고딕 타이포그래피 서체들은 당대 시대적 ...</p>
-        </a>
-      
-
-        <a href="posts/normal-2.html" class="archive-card">
-          <h3>전통 악기 장인들의 보존 노하우: 해금 실크 현(Silk String)의 천연 비왁스 코팅 기법</h3>
-          <p>한국 전통 찰현악기인 해금의 뽕나무 현에 가해지는 마찰력을 극대화하고 온도 및 습도 편차에 따르는 실크 현의 수축 팽창을 방어하기 위해 벌꿀에서 추출한 밀랍 왁스와 천연 벌꿀을 엄...</p>
-        </a>
-      
-
-        <a href="posts/normal-3.html" class="archive-card">
-          <h3>활판 인쇄술의 숨겨진 보석: 19세기 납 활자(Lead Type) 캐스팅 자형 조각 기술</h3>
-          <p>활자를 한 자 한 자 구리 틀에 부어 굳히던 19세기 활판 금속 활자 조각술은 잉크가 젖은 종이 속으로 압착되어 들어갈 때 생기는 특유의 깊은 양각 엠보싱 텍스처와 미세하게 무너지...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="archive-card">
-          <h3>아날로그 문화 컬렉터들이 선정한 화곡 셔츠룸 트렌드 정보 공유 리포트</h3>
-          <p>시간의 깊은 숨결이 고스란히 각인된 명품 악기 해금 현의 장인정신과 잊힌 60년대 활판 서체의 고독한 인쇄 미학을 추적하며 아날로그 감성을 축적해 나가는 컬렉터분들이라면, 소중한 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="archive-card">
-          <h3>아날로그 문화 컬렉터들이 선정한 화곡 셔츠룸 트렌드 정보 공유 리포트</h3>
-          <p>시간의 깊은 숨결이 고스란히 각인된 명품 악기 해금 현의 장인정신과 잊힌 60년대 활판 서체의 고독한 인쇄 미학을 추적하며 아날로그 감성을 축적해 나가는 컬렉터분들이라면, 소중한 ...</p>
-        </a>
-      
-        </div>
-      </div>
-    </main>
-    <footer>
-      <div>&copy; 2026 STREET.KR. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
-      </div>
-    </footer>
-  </div>
-
-    <div class="juice-ref-yt8rau" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
-      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
-      <ul style="list-style:none;padding:0;margin:0;">
-      <li>이 주제에 대한 더 전문적인 분석은 <a href="https://test-it-blog.online/">test-it-blog</a>에서 확인하실 수 있습니다.</li>
-      <li>자세한 기술 명세 가이드는 <a href="https://ko.wikipedia.org/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+  <header>
+    <h1>용강 마사지 업체 비교</h1>
+    <nav>
+      <ul>
+        <li><a href="#">홈</a></li>
+        <li><a href="#">비교</a></li>
+        <li><a href="#">후기</a></li>
       </ul>
-    </div>
+    </nav>
+  </header>
+  <main>
+    <section class="t-side-fqtc">
+      <h1>용강 마사지 업체 비교</h1>
+      <p>용강 지역의 마사지 업체를 비교하고 조건별로 적합한 업체를 찾을 수 있습니다.</p>
+    </section>
+    <section class="r-main-i3y4">
+      <h2>용강 마사지 업체 비교 기준</h2>
+      <p>용강 마사지 업체 비교를 위해 필요한 정보는 업체의 이름, 주소, 전화번호, 가격, 서비스 등입니다.</p>
+      <ul class="m-hero-3hgu">
+        <li>업체의 이름과 주소를 확인합니다.</li>
+        <li>업체의 가격과 서비스를 비교합니다.</li>
+        <li>업체의 후기를 확인합니다.</li>
+      </ul>
+    </section>
+    <section class="r-main-i3y4">
+      <h2>용강 마사지 업체 비교 방법</h2>
+      <p>용강 마사지 업체 비교는 업체의 정보를 비교하고 조건별로 적합한 업체를 찾는 것을 의미합니다.</p>
+      <p>비교 기준은 업체의 가격, 서비스, 후기 등입니다.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 용강 마사지 업체 비교</p>
+    <p>작성자: 로컬 가이드</p>
+    <p>로컬 가이드는 용강 지역 정보를 5년간 정리해온 가이드입니다.</p>
+  </footer>
 </body>
 </html>
